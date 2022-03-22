@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Oswald:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+body {
+  background-color: #f8cece;
+  color: rgb(255, 255, 255);
+}
+.wrapper {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+#topo h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#topo h1 span {
+  color: #db8b8b;
+}
+#banner{ 
+  display: flex;  
+}
+
+#banner img{
+    width: 450px;
+    height: 300px;
+    margin-left: 30px;
+}
+#texto h2 {
+    font-size: 20px;
+    font-weight: 400px;
+    color: #8f5656;
+    font-family: 'Hubballi', cursive;
+}
+#texto h3 {
+    font-size: 20px;
+    font-weight: 400px;
+color: #af7474;
+font-family: 'Hubballi', cursive;
+}
+#texto h3 span {
+    color:#ffd561;
+}
+
+#texto h4 {
+  font-size: 20px;
+    font-weight: 400px;
+    color: #af7474;
+    font-family: 'Hubballi', cursive;
+
+}
+
+#texto button{
+    background-color:#c27a7afd;
+    color: rgb(10, 9, 6);
+    font-size : 15px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 15s;
+    width: 550px;
+   margin-top:130px;
+   transition: background 0.5s;
+    
+    }
+#texto button:hover {
+    background-color: #aa5e7efd;
+    }
+
